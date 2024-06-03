@@ -10,7 +10,7 @@ menu = """
 
 saldo = 0
 limite = 500
-extrato = ""
+extrato = ''
 numero_saques = 0
 LIMITE_SAQUES = 3
 
@@ -62,4 +62,4 @@ while True:
         break
 
     else: 
-        print("Operação inválida, por favor selecione novamente a operação desejada.")
+        print("Erro! Operação inválida, tente novamente.")
